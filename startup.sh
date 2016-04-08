@@ -36,7 +36,7 @@ END_USAGE
 
 # Defaults
 export VOLUME_DRIVER=local
-export LOGGING_OVERRIDE=' -f etc/logging/syslog/default.yml'
+export LOGGING_OVERRIDE='--verbose -f etc/logging/syslog/default.yml'
 export CUSTOM_NETWORK_NAME=adopnetwork
 
 
